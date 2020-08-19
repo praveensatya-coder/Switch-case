@@ -1,0 +1,28 @@
+# Switch-case
+#include<stdio.h>
+int main()
+{
+	printf("Pick an Item\n1.Dosa\n2.Puri\n3.Roti\n4.Biriyani\n5.Pasta\n");
+	int choice=0;
+	scanf("%d",&choice);
+	switch(choice)
+	{
+		case 1:
+			printf("you picked Dosa it's\n Prize - 50");
+			break;
+			case 2:
+			printf("you picked Puri it's\n Prize - 40");
+			break;
+			case 3:
+			printf("you picked Roti it's\n Prize - 20");
+			break;
+			case 4:
+			printf("you picked Biriyani it's\n Prize - 150");
+			break;
+			case 5:
+			printf("you picked Pasta it's\n Prize - 70");
+			break;
+			default: printf("Invalid Choice");
+	}
+	return 0;
+}
